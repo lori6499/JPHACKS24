@@ -17,9 +17,10 @@ def resize_image(image, width, height):
     return cv2.resize(image, (width, height))
 
 # 知っている人物の画像パス
-known_image_path = r'C:\Users\hyeji\Desktop\JPHACKS24\SHIMLoriHyejin.jpg'
+#　画像のパスは変えること
+known_image_path = r'C:\Users\hyeji\Desktop\JPHACKS24\ElonMusk.jpg'
 # 比較する顔の画像パス
-unknown_image_path = r'C:\Users\hyeji\Desktop\JPHACKS24\ElonMusk.jpg'
+unknown_image_path = r'C:\Users\hyeji\Desktop\JPHACKS24\ElonMusk２.jpg'
 
 # 知っている人物の顔をエンコード
 known_face_encoding = load_and_encode_image(known_image_path)
